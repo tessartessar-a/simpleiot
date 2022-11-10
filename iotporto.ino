@@ -3,7 +3,7 @@
 #include <WiFiManager.h> // https://github.com/tzapu/WiFiManager
 #include <PubSubClient.h>
 
-const char* mqtt_server = "192.168.1.5";
+const char* mqtt_server = "your-raspi-ip-address";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
