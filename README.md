@@ -11,7 +11,7 @@ Microcontroller( in my case I use ESP8266).
   - ESP8266WiFi ( https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266WiFi)
   - WiFiManager ( https://github.com/tzapu/WiFiManager)
   - PubSubClient( https://github.com/knolleary/pubsubclient)
-3. Upload to your board!
+3. Upload to .ino file your board 
 
 Server(Any PC but I prefered use raspberry pi 3)
 
@@ -19,6 +19,9 @@ Server(Any PC but I prefered use raspberry pi 3)
 2. Install mosquitto broker
 3. Install Flask
 4. Install Paho-MQTT
+5. copy .py file and .html file into one folder
+6. run the python to turn on  the LED 
+
 
 
 
